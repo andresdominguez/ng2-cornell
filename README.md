@@ -11,7 +11,7 @@ https://andresdominguez.github.io/ng-meetup-berlin/src/
 
 ## Getting Started∂
 
-This project uses Angular 2 alpha 42
+This project uses Angular 2 alpha 44
 
 It is based on John Papa's [repo](https://github.com/johnpapa/angular2-tour-of-heroes)
 
