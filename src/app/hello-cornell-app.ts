@@ -1,4 +1,4 @@
-import {RouteConfig, ROUTER_DIRECTIVES, ROUTER_BINDINGS, LocationStrategy, HashLocationStrategy} from 'angular2/router';
+import {RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS, LocationStrategy, HashLocationStrategy} from 'angular2/router';
 import {Component, View, bootstrap, CORE_DIRECTIVES, provide} from 'angular2/angular2'
 import {GuestService} from './guest-service';
 import {Registration} from './registration';
@@ -26,17 +26,17 @@ var routes = {
   routes.guestList,
 ])
 @Component({
-  selector: 'hello-berlin',
+  selector: 'hello-cornell',
 })
 @View({
-  templateUrl: 'app/hello-berlin.html',
+  templateUrl: 'app/hello-cornell.html',
   directives: [CORE_DIRECTIVES, ROUTER_DIRECTIVES]
 })
 class HelloBerlin {
 }
 
 bootstrap(HelloBerlin, [
-  ROUTER_BINDINGS,
+  ROUTER_PROVIDERS,
   GuestService,
   provide(LocationStrategy, {useClass: HashLocationStrategy})
 ]);
