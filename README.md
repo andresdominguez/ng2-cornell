@@ -7,7 +7,7 @@ Sample code for Cornell lecture
 
 ## Demo app
 
-https://andresdominguez.github.io/ng-meetup-berlin/src/
+https://andresdominguez.github.io/ng2-cornell/src/
 
 ## Getting Started∂
 
