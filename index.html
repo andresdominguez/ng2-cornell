@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello Cornell</title>
+  <script src="node_modules/systemjs/dist/system.js"></script>
+  <script src="node_modules/typescript/lib/typescript.js"></script>
+  <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+  <script>
+    System.config({
+      transpiler: 'typescript',
+      typescriptOptions: {emitDecoratorMetadata: true}
+    });
+    System.import('./app.ts');
+  </script>
+</head>
+<body>
+<hello-cornell>Loading ...</hello-cornell>
+</body>
+</html>
