@@ -30,10 +30,10 @@ var routes = {
   templateUrl: 'app/hello-cornell.html',
   directives: [CORE_DIRECTIVES, ROUTER_DIRECTIVES]
 })
-class HelloBerlin {
+class HelloCornell {
 }
 
-bootstrap(HelloBerlin, [
+bootstrap(HelloCornell, [
   ROUTER_PROVIDERS,
   GuestService,
   provide(LocationStrategy, {useClass: HashLocationStrategy})
