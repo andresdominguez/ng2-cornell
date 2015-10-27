@@ -1,4 +1,4 @@
-/// <reference path="./typings/firebase/firebase.d.ts" />
+/// <reference path="../../typings/firebase/firebase.d.ts" />
 
 const FIREBASE_URL = 'https://sweltering-heat-3358.firebaseio.com';
 
@@ -64,5 +64,15 @@ export class GuestService {
 
   getList(): Guest[] {
     return this.guestList;
+  }
+
+  updateLovesAngular2(guest: Guest, lovesNg2: boolean) {
+    var ref = new Firebase(FIREBASE_URL + '/' + guest.key);
+    var newValues = {
+      name: guest.name,
+      lovesNg2: lovesNg2 ? 'Yes' : 'No',
+      about: guest.about
+    };
+    ref.update(newValues);
   }
 }

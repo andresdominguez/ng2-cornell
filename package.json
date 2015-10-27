@@ -1,11 +1,16 @@
 {
-  "dependencies": {
-    "angular2": "^2.0.0-alpha.44",
-    "systemjs": "^0.19.5",
-    "tsd": "^0.6.5",
-    "typescript": "^1.6.2"
-  },
+  "name": "ng-meetup-berlin",
+  "version": "0.0.1",
   "scripts": {
-    "install": "node ./node_modules/.bin/tsd install firebase"
+    "tsc": "tsc -p src -w",
+    "start": "live-server --open=src"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-alpha.42",
+    "systemjs": "0.19.2"
+  },
+  "devDependencies": {
+    "live-server": "^0.8.1",
+    "typescript": "^1.6.2"
   }
 }
