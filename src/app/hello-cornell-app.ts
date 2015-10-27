@@ -1,5 +1,5 @@
 import {RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS, LocationStrategy, HashLocationStrategy} from 'angular2/router';
-import {Component, View, bootstrap, CORE_DIRECTIVES, provide} from 'angular2/angular2'
+import {Component, bootstrap, CORE_DIRECTIVES, provide} from 'angular2/angular2'
 import {GuestService} from './guest-service';
 import {Registration} from './registration';
 import {GuestList} from './guest-list';
@@ -27,8 +27,6 @@ var routes = {
 ])
 @Component({
   selector: 'hello-cornell',
-})
-@View({
   templateUrl: 'app/hello-cornell.html',
   directives: [CORE_DIRECTIVES, ROUTER_DIRECTIVES]
 })

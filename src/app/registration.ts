@@ -1,11 +1,9 @@
-import {Component, View} from 'angular2/angular2';
+import {Component} from 'angular2/angular2';
 import {GuestService} from './guest-service';
 import {Router} from 'angular2/router';
 
 @Component({
-  selector: 'registration'
-})
-@View({
+  selector: 'registration',
   templateUrl: 'app/registration.html'
 })
 export class Registration {

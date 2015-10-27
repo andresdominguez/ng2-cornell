@@ -1,10 +1,8 @@
-import {Component, View} from 'angular2/angular2';
+import {Component} from 'angular2/angular2';
 
 @Component({
   selector: 'guest-card',
-  properties: ['guest']
-})
-@View({
+  properties: ['guest'],
   templateUrl: 'app/guest-card.html',
 })
 export class GuestCard {
