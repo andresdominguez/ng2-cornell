@@ -3,11 +3,11 @@ Sample code for Cornell lecture
 
 ## Slides
 
-[See slides](https://docs.google.com/presentation/d/1KMrunNIzYEJa2QDReR6cymy_viGCSyOYtCiA495Vx8I/edit?usp=sharing)
+[See slides](https://docs.google.com/presentation/d/1givpeKLlq61AASNUaF87HVghB-RVMX7EetsZmZ5_EYk/edit?usp=sharing)
 
 ## Demo app
 
-https://andresdominguez.github.io/ng-meetup-berlin/src/
+https://andresdominguez.github.io/ng2-cornell/src/
 
 ## Getting Started∂
 
