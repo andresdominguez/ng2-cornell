@@ -1,4 +1,4 @@
-# ng-meetup-berlin
+# Cornell Startup Systems
 Sample code for Cornell lecture
 
 ## Slides
@@ -9,7 +9,7 @@ Sample code for Cornell lecture
 
 https://andresdominguez.github.io/ng2-cornell/src/
 
-## Getting Started∂
+## Getting Started
 
 This project uses Angular 2 alpha 44
 
